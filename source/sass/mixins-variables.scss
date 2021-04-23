@@ -1,0 +1,24 @@
+/* Colors */
+$background: #343539;
+$basic-white: #FFFFFF;
+$basic-black: #000000;
+$placeholder: #CFCFCF;
+$number-background: #EF483E;
+$background-special: #4B4B4F;
+$focus-input: #cfb11c;
+$button-background: #717174;
+
+/* Breakpoints */
+$desktop-size: 1580px;
+$half-desktop-size: 1170px;
+$tablet-size: 700px;
+$half-mobile-size: 450px;
+$mobile-size: 420px;
+
+/* Fonts */
+@mixin fonts($font-weight: 400, $font-size: 14px, $font-color: $basic-white, $line-height: 30px) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  color: $font-color;
+  line-height: $line-height;
+}
